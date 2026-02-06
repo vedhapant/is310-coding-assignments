@@ -2,7 +2,7 @@
 
 ## Proof of Installation
 
-Hypothes.is Username: vedhapant
+Hypothes Username: vedhapant
 
 1. Python
 
@@ -18,4 +18,4 @@ Hypothes.is Username: vedhapant
 
 4. AI Tool/Workflow
 
-I plan to use Claude for this course to help with coding questions and debugging.
+I plan to use Github copilot and claude for this course to help with coding questions and debugging.
