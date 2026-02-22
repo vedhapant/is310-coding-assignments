@@ -28,4 +28,4 @@ The Metropolitan Museum of Art has an internal digital team that built and maint
 
 ## Assignment 2: Styling the Cultural Web
 
-I created an `index.html` file that presents one digitized cultural object from the Metropolitan Museum of Art's collection, relevant to our group's focus on American history and my specific interest in American art history. The object I chose is *Watson and the Shark* by John Singleton Copley (1778) 
+I created an `index.html` file that presents one digitized cultural object from the Metropolitan Museum of Art's collection, relevant to our group's focus on American history and my specific interest in American art history. The object I chose is *Watson and the Shark* by John Singleton Copley (1778). View the finalized page if you like using this link: https://htmlpreview.github.io/?https://github.com/vedhapant/is310-coding-assignments/blob/main/source-and-style/index.html 
