@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Watson and the Shark – John Singleton Copley</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            max-width: 860px;
+            margin: 40px auto;
+            background-color: #f4f0eb;
+            color: #2c2c2c;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            color: #2b3a5c;
+            border-bottom: 3px solid #8b9dc3;
+            padding-bottom: 12px;
+        }
+        h2 {
+            color: #3d5a80;
+            margin-top: 30px;
+        }
+        .object-container {
+            background: white;
+            border-radius: 14px;
+            padding: 30px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+        }
+        a {
+            color: #c0392b;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            line-height: 2.2;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #2b3a5c;
+            color: white;
+            border-radius: 20px;
+            padding: 4px 14px;
+            font-size: 0.85em;
+            margin: 4px;
+        }
+        #fun-fact-box {
+            background-color: #eaf0fb;
+            border-left: 5px solid #2b3a5c;
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-style: italic;
+        }
+        button {
+            margin-top: 12px;
+            background-color: #2b3a5c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #3d5a80;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> American Art History: A Featured Object</h1>
+
+    <div class="object-container">
+
+        <h2>Watson and the Shark</h2>
+        <p><em>by John Singleton Copley, 1778</em></p>
+
+        <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/10554/34095/main-image"  
+             alt="Watson and the Shark by John Singleton Copley">
+
+        <h2>Description</h2>
+        <p>
+            <em>Watson and the Shark</em> is one of the most dramatic and significant paintings in early American art history. 
+            It depicts the real-life rescue of Brook Watson who was a young English merchant sailor who was attacked by a shark 
+            in Havana Harbor in 1749. Watson lost his leg in the attack but survived. He later commissioned 
+            Copley to depict the events in a painting. The painting is historically important because of the prominent inclusion of a Black man at the top of the rescue boat which was an unusually 
+            dignified portrayal for the era, and a subject of much art historical discussion.
+        </p>
+
+        <h2>Why It Matters for American History</h2>
+        <p>
+            Copley was one of colonial America's greatest painters. This work bridges American, British, and Atlantic 
+            world history — painted in London by a Boston-born artist, depicting an event in Cuba involving an 
+            English merchant. It reflects the interconnected nature of 18th-century Atlantic commerce, race, and power, 
+            making it a rich object for exploring American history through art.
+        </p>
+
+        <h2>Tags</h2>
+        <div>
+            <span class="tag">18th Century</span>
+            <span class="tag">Colonial America</span>
+            <span class="tag">Oil on Canvas</span>
+            <span class="tag">Maritime</span>
+            <span class="tag">John Singleton Copley</span>
+            <span class="tag">Met Collection</span>
+        </div>
+
+        <h2>Metadata</h2>
+        <ul>
+            <li><strong>Title:</strong> Watson and the Shark</li>
+            <li><strong>Artist:</strong> John Singleton Copley (American, Boston 1738–1815 London)</li>
+            <li><strong>Date:</strong> 1778</li>
+            <li><strong>Medium:</strong> Oil on canvas</li>
+            <li><strong>Dimensions:</strong> 182.1 × 229.2 cm (71 3/4 × 90 1/4 in.)</li>
+            <li><strong>Collection:</strong> The Metropolitan Museum of Art, New York</li>
+            <li><strong>Department:</strong> American Paintings and Sculpture</li>
+            <li><strong>Accession Number:</strong> 34.172</li>
+            <li><strong>Rights:</strong> Public Domain</li>
+        </ul>
+
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://www.metmuseum.org/art/collection" target="_blank">View the Full Met Collection</a></li>
+            <li><a href="https://www.metmuseum.org/art/collection/search/10554" target="_blank">View This Object at the Met</a></li>
+            <li><a href="https://github.com/metmuseum/openaccess" target="_blank">Met Open Access Dataset on GitHub</a></li>
+        </ul>
+
+        <h2> Fun Facts !!!</h2>
+        <div id="fun-fact-box">
+            Click the button below to reveal an interesting fact about this painting!
+        </div>
+        <button onclick="showFact()">Show a Fun Fact</button>
+
+    </div>
+
+    <script>
+        const facts = [
+            "Brook Watson, the shark attack survivor, later became Lord Mayor of London in 1796!",
+            "There are three known versions of this painting : one at the Met, one at the National Gallery in Washington D.C., and one at the Museum of Fine Arts in Boston.",
+            "Copley painted this while living in London, having left Boston just before the American Revolution.",
+            "The Black figure at the top of the boat is one of the earliest dignified portrayals of a Black person in Western art history.",
+            "Watson was only 14 years old when the shark attack happened in Havana Harbor in 1749."
+        ];
+
+        let factIndex = 0;
+
+        function showFact() {
+            document.getElementById("fun-fact-box").innerText = facts[factIndex];
+            factIndex = (factIndex + 1) % facts.length;
+        }
+    </script>
+
+</body>
+</html>
