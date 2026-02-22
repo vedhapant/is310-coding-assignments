@@ -13,8 +13,6 @@ When I right-clicked on the Met's website and selected "Inspect," I could see th
 - **CSS (via SCSS modules)** – Instead of plain `.css` files, the Met uses **CSS Modules compiled from SCSS**. I could tell because the class names look like `global-navigation-module-scss-module__KwqSyq__header` and `page-section-module-scss-module__Vgj7IW__wrapper` — that long scrambled format is a telltale sign of CSS Modules, which is a modern way of writing styles so they don't accidentally interfere with each other.
 
 - **JavaScript (React)** – In the Properties panel, I could see references to `__reactFiber$81uakgkagej` and `__reactProps$81uakgkagej`. These are internal React properties that only appear when a website is built using **React**, a popular JavaScript framework made by Meta. This means the Met's website is a React application — content is loaded and updated dynamically using JavaScript rather than just static HTML pages.
-s
-- **`<noscript>` tag** – There is a `<noscript>` element at the top of the page. This is a fallback element that only shows content if the user has JavaScript disabled in their browser — further confirming how heavily the site relies on JavaScript/React to function.
 
 **Who built it?**
 
