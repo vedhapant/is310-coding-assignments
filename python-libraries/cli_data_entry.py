@@ -102,7 +102,7 @@ def save_to_csv(new_artworks: list) -> str:
 
 def show_final_table(new_artworks: list):
     table = Table(
-        title="[bold orange1]✅  Your Newly Added Artworks[/bold orange1]",
+        title="[bold orange1] Your Newly Added Artworks[/bold orange1]",
         box=box.HEAVY_EDGE,
         border_style="white",
         header_style="bold black on orange1",
