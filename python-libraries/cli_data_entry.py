@@ -17,7 +17,7 @@ existing_artworks = [
 
 def show_banner():
     console.print(Panel.fit(
-        "[bold white] THE ART VAULT  🎨[/bold white]\n[orange1]Your personal artwork collection tracker[/orange1]",
+        "[bold white] THE ART VAULT  [/bold white]\n[orange1]Your personal artwork collection tracker[/orange1]",
         border_style="orange1",
         padding=(1, 4),
     ))
@@ -137,7 +137,7 @@ def main():
     filepath = save_to_csv(new_artworks)
 
     console.print(Panel.fit(
-        f"[bold white]All done! 🎨[/bold white]\n"
+        f"[bold white]All done! [/bold white]\n"
         f"[orange1]Your collection has been saved to:[/orange1]\n"
         f"[bold white]{filepath}[/bold white]",
         border_style="orange1",
