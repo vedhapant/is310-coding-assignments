@@ -28,9 +28,7 @@ pip install rich
 ```
 
 **2. Run the script:**
-```bash
-python "Command Line Data Curation/cli_data_entry.py"
-```
+
 
 **3. Follow the prompts** — enter how many artworks you want to add, fill in each field, confirm your entries, and your CSV will be saved automatically.
 
