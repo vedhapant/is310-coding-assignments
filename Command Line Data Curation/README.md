@@ -1,4 +1,4 @@
-# Command Line Data Curation — The Art Vault 🎨
+# Command Line Data Curation — The Art Vault 
 
 A CLI tool for manually entering and saving artwork data to a CSV file, built with Python and the [Rich](https://rich.readthedocs.io/) library.
 
