@@ -1,23 +1,13 @@
 # API Getting Data — IS310 Assignment
 
 ## Overview
-This folder contains scripts for the IS310 "GETting Culture Across APIs" assignment. 
+This folder contains scripts for the IS310 "Getting Culture Across APIs" assignment. 
 The goal is to demonstrate how to use APIs to retrieve data from the web, 
 cross-reference data between two different APIs, and save the results in a structured format.
 
 APIs (Application Programming Interfaces) are a way to request data from a server 
 programmatically — similar to how a web browser loads a webpage, but instead of getting 
 back HTML, we get back structured data (usually JSON) that we can work with in Python.
-
-## Goal of the Assignment
-The assignment asks us to:
-1. Pick an API of our choice and retrieve data from it
-2. Take something from that data and search for related items in the Europeana collection
-3. Save the combined results to a CSV file
-
-The broader point is to show how data from completely different sources — in this case, 
-modern NASA astronomy images and historical European cultural artifacts — can be connected 
-and compared. This is a core skill in digital humanities and computational research.
 
 ## APIs Used
 
@@ -49,12 +39,3 @@ sources, and links to the original items
 ## Output
 - `nasa_europeana_data.csv` — combined data from NASA and Europeana (20 rows total)
 
-## Setup
-```bash
-pip install requests apikey pyeuropeana Pillow "pandas<2.0" "numpy<1.24"
-python getculture.py
-```
-
-## Important Notes
-- Never push API keys to GitHub — they are stored locally using the `apikey` library
-- NASA API rate limit: 1,000 requests per hour
