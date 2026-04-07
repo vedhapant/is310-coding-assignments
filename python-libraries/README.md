@@ -27,10 +27,8 @@ A CLI tool for manually entering and saving artwork data to a CSV file, built wi
 pip install rich
 ```
 
-**2. Run the script:**
-```bash
-python "Command Line Data Curation/cli_data_entry.py"
-```
+**2. Run the script**
+
 
 **3. Follow the prompts** — enter how many artworks you want to add, fill in each field, confirm your entries, and your CSV will be saved automatically.
 
